@@ -1,11 +1,6 @@
 # http://travis-ci.org/#!/RDFLib/rdflib
 sudo: false
 language: python
-branches:
-  only:
-    # only build master and release branches (merge request are built anyhow)
-    - master
-    - /^\d+\.\d+\.\d+(-.*)?$/
 git:
   depth: 3
 
